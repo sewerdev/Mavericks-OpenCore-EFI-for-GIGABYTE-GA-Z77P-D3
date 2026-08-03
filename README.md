@@ -1,4 +1,4 @@
-# OpenCore (Hackintosh) EFI for GIGABYTE GA-Z77P-D3
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/74fe959d-7039-44c7-9cf2-ce3a1006de46" /># OpenCore (Hackintosh) EFI for GIGABYTE GA-Z77P-D3
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d9757da6-503f-4bea-ba26-96743cc0f337" />
 
@@ -9,7 +9,7 @@ macOS 10.9 Mavericks on Ivy Bridge desktop, no dGPU.
 
 ## Hardware
 
-| | |
+|---|---|
 | Motherboard | GIGABYTE GA-Z77P-D3 (rev. 1.0/1.1), Z77 chipset |
 | CPU | Intel Core i5-3330 (Ivy Bridge, no XCPM, no Turbo binning tricks needed) |
 | iGPU | Intel HD Graphics 2500 (GT1, `0x0152`) |
