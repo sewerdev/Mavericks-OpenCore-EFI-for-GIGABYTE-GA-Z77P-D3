@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/74fe959d-7039-44c7-9cf2-ce3a1006de46" /># OpenCore (Hackintosh) EFI for GIGABYTE GA-Z77P-D3
+# OpenCore (Hackintosh) EFI for GIGABYTE GA-Z77P-D3
 
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d9757da6-503f-4bea-ba26-96743cc0f337" />
 
