@@ -1,0 +1,1 @@
+# Mavericks-OpenCore-EFI-for-GIGABYTE-GA-Z77P-D3
