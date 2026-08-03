@@ -9,6 +9,7 @@ macOS 10.9 Mavericks on Ivy Bridge desktop, no dGPU.
 
 ## Hardware
 
+| | |
 |---|---|
 | Motherboard | GIGABYTE GA-Z77P-D3 (rev. 1.0/1.1), Z77 chipset |
 | CPU | Intel Core i5-3330 (Ivy Bridge, no XCPM, no Turbo binning tricks needed) |
