@@ -71,7 +71,7 @@ Enable **one** of the two, not both, only if you see actual symptoms (Turbo Boos
 
 ## Installation
 
-Standard OpenCore install: copy `EFI/` to the root of your USB installer's EFI partition **and** to the target disk's EFI partition after install (they're independent - updating only one leaves the other stale on next boot from that device). If ethernet doesn't work, install old version of RealtekRTL8111 kext. Also, I add
+Standard OpenCore install: copy `EFI/` to the root of your USB installer's EFI partition **and** to the target disk's EFI partition after install (they're independent - updating only one leaves the other stale on next boot from that device). If ethernet doesn't work, install old version of RealtekRTL8111 kext. Also, I add various configs for better GPU work
 
 BIOS: AHCI, CSM/Secure Boot disabled, VT-d disabled, DVMT Pre-Allocated ≥ 64M, XHCI/EHCI Hand-off enabled.
 
