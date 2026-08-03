@@ -66,11 +66,12 @@ Enable **one** of the two, not both, only if you see actual symptoms (Turbo Boos
 - `XhciPortLimit` is enabled - required on macOS builds older than 11.3 for USB personality matching on non-Apple boards, unrelated to the real 15-port kernel limit removed in 11.3+.
 - `DisableRtcChecksum` is enabled - without it, this board's BIOS settings/RTC state get reset intermittently across reboots.
 - `AppleCpuPmCfgLock` is enabled - this board's CFG-Lock (MSR 0xE2 write protection) can't reliably be disabled from BIOS; this quirk works around it whether or not the BIOS toggle is off. `ControlMsrE2` tool is included in the picker to check the actual MSR state if you want to verify.
-- If ethernet doesn't come up: this board shipped across revisions with either a Realtek or an Atheros LAN chip depending on revision/batch. Check `About This Mac -> System Report -> Network` for what's actually detected before assuming the kext is wrong.
+- If ethernet doesn't work, install old version of RealtekRTL8111 kext
+- I added some varieties of configs for graphics performance
 
 ## Installation
 
-Standard OpenCore install: copy `EFI/` to the root of your USB installer's EFI partition **and** to the target disk's EFI partition after install (they're independent - updating only one leaves the other stale on next boot from that device). If ethernet doesn't work, install old version of RealtekRTL8111 kext
+Standard OpenCore install: copy `EFI/` to the root of your USB installer's EFI partition **and** to the target disk's EFI partition after install (they're independent - updating only one leaves the other stale on next boot from that device). If ethernet doesn't work, install old version of RealtekRTL8111 kext. Also, I add
 
 BIOS: AHCI, CSM/Secure Boot disabled, VT-d disabled, DVMT Pre-Allocated ≥ 64M, XHCI/EHCI Hand-off enabled.
 
